@@ -50,7 +50,7 @@ public class MemoMain {
 					break;
 				case "l":
 				case "L":
-					main.showList(main.model.list);
+					main.showList(main.model.getList());
 					break;
 			}
 		}
